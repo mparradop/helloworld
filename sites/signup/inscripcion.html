@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripción"content="Inscripción Acámica">
+    <title>Formulario de inscripción</title>
+    <style type="text/css">
+      body{
+			background-color: white; 
+            margin-left: 10%;
+			margin-right: 20%;
+    		padding: 5px 5px 5px 5px;
+			font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }	
+	</style>
+</head>
+<body>
+    <header>
+        <img src="/sandbox/sites/signup/images/logoAcamica.png" width="180">
+        <h1>¡Avanza, da tu primer paso!</h1>
+    </header>
+    
+</body>
+    <main>
+        <h2>Déjanos conocerte</h2>
+        <section id="registro">
+            <form action="">
+                <div>
+                    <label for="name">Nombre</label>
+                    <input type="text" placeholder="Juan" id="name" name="name" required>                
+                </div>
+
+                <div>
+                    <label for="lastName">Apellido</label>
+                    <input type="text" placeholder="Pérez" id="lastName" name="lastName" required>                
+                </div>
+
+                <div>
+                    <label for="email">E-Mail</label>
+                    <input type="text" placeholder="juan.perez@empresa.com" id="email" name="email" required>                
+                </div>
+
+                <div>
+                    <label for="país">Selecciona su nacionalidad</label>
+                    <select name="País" id="pais" required>
+                        <option value="AR">Argentina</option>
+                        <option value="CO">Colombia</option>
+                        <option value="CL">Chile</option>
+                        <option value="MX">México</option>
+                        <option value="PE">Perú</option>
+                        <option value="UY">Uruguay</option>
+                    </select>
+                    <br>
+                </div>
+
+                <div>
+                    <br><label for="path">¿A qué carrera deseas inscribirte?</label><br>
+                    <input type="radio" name="path" value="UX/UI" id="ux/ui" required>
+                    <label for="ux/ui">UX/UI</label><br>
+                    
+                    <input type="radio" name="path" value="datascience" id="datascience">
+                    <label for="datascience">DataScience</label><br>
+                    
+                    <input type="radio" name="path" value="Desarrollo Web Full Stack" id="dwfs">
+                    <label for="dwfs">Desarrollo Web Full Stack</label><br>
+
+                    <input type="radio" name="path" value="Front End Avanzado" id="fea">
+                    <label for="fea">Front End Avanzado</label>
+
+
+                </div>
+
+                <div>
+                    <br>
+                    <label for="modalidad">Modalidad</label><br>
+                    <input type="radio" name="modalidad" value="Virtual" id="virtual" required>
+                    <label for="ux/ui">Virtual</label>
+
+                    <input type="radio" name="modalidad" value="Presencial" id="presencial">
+                    <label for="ux/ui">Presencial</label>
+
+                </div>
+
+                <div>
+                    <label for="trabajando">¿Estás trabajando?</label>
+                    <input type="checkbox" name="trabajando" value="trabajando" id="trabajando "
+                    <label for="trabajando"></label>
+
+                </div>
+
+                <div>
+                    <label for="tel">Teléfono o móvil donde te podamos contactar</label>
+                    <input type="tel" name="telefono" id="tel"
+                </div>
+
+                <div>
+                    <p>Cuéntanos un poco de ti y tus intereses</p>
+                    <textarea name="interest" id="interest" cols="30" rows="10" placeholder="Mi motivación para iniciar este proyecto..."></textarea>
+                </div>
+                <div>
+                    <input type="submit" name="Submit" value="Confirmar" on><br>
+                </div>
+                <div>
+                    <br><input type="reset" name="reset" value="Limpiar">
+                    
+                </div>
+                
+            </form>
+        </section>
+        
+    </main>
+</html>
