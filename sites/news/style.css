@@ -1,0 +1,25 @@
+/* as we have linked the newpost.html to style.css, we can declare a style for the unique element presented on each section of html document*/
+
+
+body{
+    margin: 10%;
+    background-color: ivory;
+}
+#headImage{
+    border: 4px dotted tomato; /* some carachteristics are set like a coloured dotted border*/
+}
+
+#title{
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace; /* some carachteristics are set like a font size and a font family*/
+}
+
+#subtitle{
+    font-style: italic;
+    font-size: small;
+}
+
+#content{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
