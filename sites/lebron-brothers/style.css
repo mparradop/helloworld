@@ -1,0 +1,77 @@
+
+
+.PageSection{
+    /*padding short = Top, Right, Bottom, Left */
+    
+    padding: 10px;
+    margin: 1%;
+    border-top-left-radius: 40px;
+    border-style: solid;
+    font-family: 'Salsa', cursive;
+    text-align: center;
+    color: white;
+}
+.PageSection iframe{
+    display: none;
+}
+ul li:hover iframe {display: block;}
+
+.AsideSection iframe{
+    display: none;
+}
+h3:hover iframe{display: block;}
+
+#MainTitle{
+    padding: 20px;
+    margin: 10px;
+    height: 400px;
+    background-image: url(images/band1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.LaBandaList li{
+    color: #ffb703;
+    border-radius: 2px;
+    display: inline-block;
+    list-style: none;
+    
+}
+#discografia li{
+    padding: 5px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+#briefing li{
+    display: inline-block;
+    padding: 15px;
+    list-style: none;
+    font-size: x-large;
+}
+
+.AsideSection{
+    background-color:#ffb703;
+    color: #023047;
+    background-size: 10%;
+    border-top-left-radius: 0,5px;
+    border-bottom-left-radius: 20px;
+
+    width: 300px;
+    height: 5%;
+    padding: 0px, 0px;
+    margin-top: 0;
+
+    position: fixed;
+    top: 10px;
+    right: -180px;
+
+    transition: all 1.5s ease-out;
+}
+
+.AsideSection:hover{
+    right: 0px;;
+
+}
+
